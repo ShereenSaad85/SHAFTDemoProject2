@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                   Test Method: 'tests.Register.RegisterUser'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "http://automationexercise.com" @15-08-2023 16:19:41.0301 PM
+[ReportManager] Initial URL: "data:," @15-08-2023 16:19:41.0340 PM
+[ReportManager] Navigate to url "http://automationexercise.com". @15-08-2023 16:19:57.0763 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 16:19:58.0041 PM
+[ReportManager] Click "? Signup / Login". @15-08-2023 16:19:58.0093 PM
+[ReportManager] Type "Shereen" into "Name". @15-08-2023 16:19:59.0048 PM
+[ReportManager] Type "shereen101@gmail.com" into "Email Address". @15-08-2023 16:19:59.0183 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 16:19:59.0375 PM
+[ReportManager] Click "Signup". @15-08-2023 16:19:59.0428 PM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda$881/0x000002d53e595000@14a3d15b (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='login-form']/h2/b"} @15-08-2023 16:21:00.0874 PM
+[ReportManager] Failed to Get text from "By.xpath: //div[@class='login-form']/h2/b". Root cause: "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='login-form']/h2/b"}" @15-08-2023 16:21:02.0174 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1692105661043_RegisterUser_Get text_failed' @15-08-2023 16:21:02.0188 PM
+[ReportManager] Successfully created attachment 'Element Action Exception - Get text - Stacktrace' @15-08-2023 16:21:02.0190 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @15-08-2023 16:21:02.0197 PM
