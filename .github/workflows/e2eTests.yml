@@ -6,6 +6,7 @@ on:
 env:
   TESTING_SCOPE: "tests.Register"
 
+
 jobs:
   Windows_Edge_Local:
     runs-on: windows-latest
