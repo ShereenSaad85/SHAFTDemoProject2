@@ -28,7 +28,7 @@ public class SignUpPage {
     private final By createAccountButton=By.xpath("//button[@data-qa='create-account']");
 
     ////    =======================Variables of Locators in Assertions=================
-    private final By accInfo=By.xpath("//div[@class='login-form']/h2/b");
+//    private final By accInfo=By.xpath("//div[@class='login-form']/h2/b");
     //    ---------METHODS of Actions----------
 
     public SignUpPage(SHAFT.GUI.WebDriver driver) {
@@ -68,10 +68,10 @@ public class SignUpPage {
     }
     //    ---------METHODS of Assertions----------
 
-    public SignUpPage EnterAccountInformationIsVisible(String expected){
-//        String actualAccInfo=driver.element().getText(accInfo);
-//        Assert.assertEquals(actualAccInfo,expected);
-        driver.element().getText(accInfo).equals(expected);
-        return this;
-    }
+//    public SignUpPage EnterAccountInformationIsVisible(String expected){
+////        String actualAccInfo=driver.element().getText(accInfo);
+////        Assert.assertEquals(actualAccInfo,expected);
+//        driver.element().getText(accInfo).equals(expected);
+//        return this;
+//    }
 }

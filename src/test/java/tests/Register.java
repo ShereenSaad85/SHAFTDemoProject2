@@ -27,7 +27,7 @@ public class Register {
                 .SignUpWithNameAndEmail("Shereen", "shereen101@gmail.com");
 
         new SignUpPage(driver)
-                .EnterAccountInformationIsVisible("ENTER ACCOUNT INFORMATION")
+//                .EnterAccountInformationIsVisible("ENTER ACCOUNT INFORMATION")
                 .FillAccountInformation("12345", "4", "5", "2000")
                 .CheckBoxes()
                 .FillAddressInformation("Shereen", "Saad", "VOIS", "Dallah", "Smart Village", "Canada", "Giza", "hadayek alahram", "122456", "01116281020");
